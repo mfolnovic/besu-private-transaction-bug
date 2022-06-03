@@ -1,0 +1,22 @@
+diff --git a/docker-compose.yml b/docker-compose.yml
+index 9dc22e2..61c5109 100644
+--- a/docker-compose.yml
++++ b/docker-compose.yml
+@@ -54,7 +54,7 @@ x-ethsignerProxy-def:
+     "--chain-id=1337",
+     "--http-listen-host=0.0.0.0",
+     "--downstream-http-port=8545",
+-    "--downstream-http-host=rpcnode",
++    "--downstream-http-host=member1besu",
+     "file-based-signer",
+     "-k",
+     "/opt/ethsigner/keyfile",
+@@ -169,7 +169,7 @@ services:
+       - ./config/ethsigner/key:/opt/ethsigner/keyfile
+     depends_on:
+       - validator1
+-      - rpcnode
++      - member1besu
+     ports:
+       - 18545:8545/tcp
+     networks:

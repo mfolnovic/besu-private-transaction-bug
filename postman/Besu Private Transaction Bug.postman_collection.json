@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "b73d7bf5-2507-4d26-8ab4-55e241355da9",
+		"name": "Besu Private Transaction Bug",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9398114"
+	},
+	"item": [
+		{
+			"name": "count",
+			"item": [
+				{
+					"name": "Create Public Transaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json();",
+									"pm.environment.set(\"transaction_hash\", responseData.result);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"eth_sendTransaction\",\n    \"params\": [\n        {\n            \"data\": \"0x06661abd\",\n            \"from\": \"{{from_addr}}\",\n            \"gas\": \"0x40000\",\n            \"gasPrice\": \"0x0\",\n            \"to\": \"{{contract_addr}}\",\n            \"value\": \"0x0\"\n        }\n    ],\n    \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:18545",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "18545"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Private Transaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json();",
+									"pm.environment.set(\"transaction_hash\", responseData.result);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"eea_sendTransaction\",\n    \"params\": [\n        {\n            \"data\": \"0x06661abd\",\n            \"from\": \"{{from_addr}}\",\n            \"gas\": \"0x40000\",\n            \"gasPrice\": \"0x0\",\n            \"to\": \"{{contract_addr}}\",\n            \"value\": \"0x0\",\n            \"privateFrom\": \"{{member1_public_key}}\",\n            \"privacyGroupId\": \"{{privacy_group}}\",\n            \"restriction\": \"restricted\"\n        }\n    ],\n    \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:18545",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "18545"
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "create",
+			"item": [
+				{
+					"name": "Create Public Transaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json();",
+									"pm.environment.set(\"transaction_hash\", responseData.result);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"eth_sendTransaction\",\n    \"params\": [\n        {\n            \"data\": \"0xefc81a8c\",\n            \"from\": \"{{from_addr}}\",\n            \"gas\": \"0x40000\",\n            \"gasPrice\": \"0x0\",\n            \"to\": \"{{contract_addr}}\",\n            \"value\": \"0x0\"\n        }\n    ],\n    \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:18545",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "18545"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Private Transaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json();",
+									"pm.environment.set(\"transaction_hash\", responseData.result);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"eea_sendTransaction\",\n    \"params\": [\n        {\n            \"data\": \"0xefc81a8c\",\n            \"from\": \"{{from_addr}}\",\n            \"gas\": \"0x40000\",\n            \"gasPrice\": \"0x0\",\n            \"to\": \"{{contract_addr}}\",\n            \"value\": \"0x0\",\n            \"privateFrom\": \"{{member1_public_key}}\",\n            \"privacyGroupId\": \"{{privacy_group}}\",\n            \"restriction\": \"restricted\"\n        }\n    ],\n    \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:18545",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "18545"
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get Public Transaction Receipt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"eth_getTransactionReceipt\",\n    \"params\": [\n        \"{{transaction_hash}}\"\n    ],\n    \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18545",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18545"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Private Transaction Receipt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"priv_getTransactionReceipt\",\n    \"params\": [\n        \"{{transaction_hash}}\"\n    ],\n    \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18545",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18545"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Privacy Group",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let responseData = pm.response.json();",
+							"pm.environment.set(\"privacy_group\", responseData.result);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"priv_createPrivacyGroup\",\n    \"params\": [\n        {\n            \"addresses\": [\n                \"{{member1_public_key}}\",\n                \"{{member2_public_key}}\"\n            ]\n        }\n    ],\n    \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18545",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18545"
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "from_addr",
+			"value": "0x9b790656b9ec0db1936ed84b3bea605873558198",
+			"type": "string"
+		},
+		{
+			"key": "contract_addr",
+			"value": "0x51A21A51aa59B0b4BF99Ea7a79c7293d601FF689",
+			"type": "string"
+		},
+		{
+			"key": "member1_public_key",
+			"value": "BULeR8JyUWhiuuCMU/HLA0Q5pzkYT+cHII3ZKBey3Bo=",
+			"type": "string"
+		},
+		{
+			"key": "member2_public_key",
+			"value": "QfeDAys9MPDs2XHExtc84jKGHxZg/aj52DTh0vtA3Xc=",
+			"type": "string"
+		}
+	]
+}

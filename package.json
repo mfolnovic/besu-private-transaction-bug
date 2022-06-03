@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "abi-encode": "node scripts/abi-encode.js"
+  },
+  "dependencies": {
+    "ethers": "^5.6.8"
+  }
+}
