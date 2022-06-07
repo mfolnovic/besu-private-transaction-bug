@@ -1,0 +1,1145 @@
+{"timestamp":"2022-06-07T15:00:29,035","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-10","class":"BlockPropagationManager","message":"New block from network 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8) from peer Peer 0x86fcc16f4730fbfd23... PeerReputation 100, validated? true, disconnected? false. Current status BlockPropagationManager{requestedBlocks=[], requestedNonAnnounceBlocks=[], importingBlocks=[0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8], pendingBlocksManager=PendingBlocksManager{pendingBlocks [], pendingBlocksByParentHash={}}}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,035","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-10","class":"BlockPropagationManager","message":"Import or save pending block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,035","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-10","class":"BlockPropagationManager","message":"We're already importing this block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,035","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-9","class":"EthProtocolManager","message":"Process message eth/66, 7","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,035","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-9","class":"EthPeer","message":"Message 7 not expected has just been received for eth ","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,035","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-9","class":"BlockPropagationManager","message":"New block from network 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8) from peer Peer 0xaf19c92deb635bd772... PeerReputation 100, validated? true, disconnected? false. Current status BlockPropagationManager{requestedBlocks=[], requestedNonAnnounceBlocks=[], importingBlocks=[0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8], pendingBlocksManager=PendingBlocksManager{pendingBlocks [], pendingBlocksByParentHash={}}}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,036","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-9","class":"BlockPropagationManager","message":"Import or save pending block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,036","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-9","class":"BlockPropagationManager","message":"We're already importing this block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,037","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-6","class":"EthPeer","message":"Message 7 not expected has just been received for eth ","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,037","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-6","class":"BlockPropagationManager","message":"New block from network 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8) from peer Peer 0x2fd5b5b6ad529f55b7... PeerReputation 100, validated? true, disconnected? false. Current status BlockPropagationManager{requestedBlocks=[], requestedNonAnnounceBlocks=[], importingBlocks=[0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8], pendingBlocksManager=PendingBlocksManager{pendingBlocks [], pendingBlocksByParentHash={}}}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,038","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-6","class":"BlockPropagationManager","message":"Import or save pending block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,038","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-6","class":"BlockPropagationManager","message":"We're already importing this block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,040","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-7","class":"EthProtocolManager","message":"Process message eth/66, 7","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,040","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-7","class":"EthPeer","message":"Message 7 not expected has just been received for eth ","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,041","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-7","class":"BlockPropagationManager","message":"New block from network 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8) from peer Peer 0xad2c79c6561bc8212c... PeerReputation 100, validated? true, disconnected? false. Current status BlockPropagationManager{requestedBlocks=[], requestedNonAnnounceBlocks=[], importingBlocks=[0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8], pendingBlocksManager=PendingBlocksManager{pendingBlocks [], pendingBlocksByParentHash={}}}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,041","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-7","class":"BlockPropagationManager","message":"Import or save pending block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,041","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-7","class":"BlockPropagationManager","message":"We're already importing this block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,044","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-4","class":"EthProtocolManager","message":"Process message eth/66, 7","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,045","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-4","class":"EthPeer","message":"Message 7 not expected has just been received for eth ","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,045","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-4","class":"BlockPropagationManager","message":"New block from network 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8) from peer Peer 0x59cf0c623c582fa9b1... PeerReputation 100, validated? true, disconnected? false. Current status BlockPropagationManager{requestedBlocks=[], requestedNonAnnounceBlocks=[], importingBlocks=[0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8], pendingBlocksManager=PendingBlocksManager{pendingBlocks [], pendingBlocksByParentHash={}}}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,045","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-4","class":"BlockPropagationManager","message":"Import or save pending block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,046","container":"4748ada8fcaf","level":"TRACE","thread":"nioEventLoopGroup-3-4","class":"BlockPropagationManager","message":"We're already importing this block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,131","container":"4748ada8fcaf","level":"DEBUG","thread":"EthScheduler-Workers-0","class":"PrivacyPrecompiledContract","message":"Processing private transaction 0x20854c109f089887bc8976690b63819ece6ca3691cc9cddbda24301aad316c49 in privacy group 0x065546d983703983413620e275a629355cc9ae189d9b7d6d4c98fc9ae584a7ed","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,132","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"PrivateTransactionProcessor","message":"Starting private execution of MessageCall{nonce=0, gasPrice=0x0000000000000000000000000000000000000000000000000000000000000000, gasLimit=262144, to=0xef7a902b01caf3fac7b51322169b85e591fd7e89, value=0x0000000000000000000000000000000000000000000000000000000000000000, sig=Signature{r=34021468404085184036449044530064060506857539179598361589965654077928168965467, s=22862707461016174187582095476884680794417394493242378127715599867466826238879, recId=0}, chainId=1337, payload=0x60fe47b1000000000000000000000000000000000000000000000000000000000000007b, privateFrom=0x0542de47c272516862bae08c53f1cb034439a739184fe707208dd92817b2dc1a, privacyGroupId=0x065546d983703983413620e275a629355cc9ae189d9b7d6d4c98fc9ae584a7ed, restriction=RESTRICTED}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,133","container":"4748ada8fcaf","level":"DEBUG","thread":"EthScheduler-Workers-0","class":"PrivateTransactionValidator","message":"Validating private transaction MessageCall{nonce=0, gasPrice=0x0000000000000000000000000000000000000000000000000000000000000000, gasLimit=262144, to=0xef7a902b01caf3fac7b51322169b85e591fd7e89, value=0x0000000000000000000000000000000000000000000000000000000000000000, sig=Signature{r=34021468404085184036449044530064060506857539179598361589965654077928168965467, s=22862707461016174187582095476884680794417394493242378127715599867466826238879, recId=0}, chainId=1337, payload=0x60fe47b1000000000000000000000000000000000000000000000000000000000000007b, privateFrom=0x0542de47c272516862bae08c53f1cb034439a739184fe707208dd92817b2dc1a, privacyGroupId=0x065546d983703983413620e275a629355cc9ae189d9b7d6d4c98fc9ae584a7ed, restriction=RESTRICTED}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,133","container":"4748ada8fcaf","level":"DEBUG","thread":"EthScheduler-Workers-0","class":"PrivateTransactionValidator","message":"Validating actual nonce 0, with expected nonce 0","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,133","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"PrivateTransactionProcessor","message":"Incremented private sender 0x9b790656b9ec0db1936ed84b3bea605873558198 nonce (0 -> 1)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,136","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"MessageCallProcessor","message":"Executing message-call","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,136","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"MessageCallProcessor","message":"Message call from 0x9b790656b9ec0db1936ed84b3bea605873558198 to 0xef7a902b01caf3fac7b51322169b85e591fd7e89 has zero value: no fund transferred","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,136","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 0
+Gas cost: 3
+Gas Remaining: 9223372036854775807
+Depth: 0
+Stack:
+	0 0x80","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,136","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 2
+Gas cost: 3
+Gas Remaining: 9223372036854775804
+Depth: 0
+Stack:
+	0 0x40
+	1 0x80","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: MSTORE
+PC: 4
+Gas cost: 12
+Gas Remaining: 9223372036854775801
+Depth: 0
+Stack:","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: CALLVALUE
+PC: 5
+Gas cost: 2
+Gas Remaining: 9223372036854775789
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 6
+Gas cost: 3
+Gas Remaining: 9223372036854775787
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000000
+	1 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: ISZERO
+PC: 7
+Gas cost: 3
+Gas Remaining: 9223372036854775784
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000001
+	1 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH2
+PC: 8
+Gas cost: 3
+Gas Remaining: 9223372036854775781
+Depth: 0
+Stack:
+	0 0x0010
+	1 0x0000000000000000000000000000000000000000000000000000000000000001
+	2 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPI
+PC: 16
+Gas cost: 10
+Gas Remaining: 9223372036854775778
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPDEST
+PC: 16
+Gas cost: 1
+Gas Remaining: 9223372036854775768
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: POP
+PC: 17
+Gas cost: 2
+Gas Remaining: 9223372036854775767
+Depth: 0
+Stack:","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 18
+Gas cost: 3
+Gas Remaining: 9223372036854775765
+Depth: 0
+Stack:
+	0 0x04","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: CALLDATASIZE
+PC: 20
+Gas cost: 2
+Gas Remaining: 9223372036854775762
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000024
+	1 0x04","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: LT
+PC: 21
+Gas cost: 3
+Gas Remaining: 9223372036854775760
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH2
+PC: 22
+Gas cost: 3
+Gas Remaining: 9223372036854775757
+Depth: 0
+Stack:
+	0 0x0041
+	1 0x0000000000000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPI
+PC: 25
+Gas cost: 10
+Gas Remaining: 9223372036854775754
+Depth: 0
+Stack:","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 26
+Gas cost: 3
+Gas Remaining: 9223372036854775744
+Depth: 0
+Stack:
+	0 0x00","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: CALLDATALOAD
+PC: 28
+Gas cost: 3
+Gas Remaining: 9223372036854775741
+Depth: 0
+Stack:
+	0 0x60fe47b100000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 29
+Gas cost: 3
+Gas Remaining: 9223372036854775738
+Depth: 0
+Stack:
+	0 0xe0
+	1 0x60fe47b100000000000000000000000000000000000000000000000000000000","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SHR
+PC: 31
+Gas cost: 3
+Gas Remaining: 9223372036854775735
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 32
+Gas cost: 3
+Gas Remaining: 9223372036854775732
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000060fe47b1
+	1 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH4
+PC: 33
+Gas cost: 3
+Gas Remaining: 9223372036854775729
+Depth: 0
+Stack:
+	0 0x2a1afcd9
+	1 0x0000000000000000000000000000000000000000000000000000000060fe47b1
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: EQ
+PC: 38
+Gas cost: 3
+Gas Remaining: 9223372036854775726
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000000
+	1 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH2
+PC: 39
+Gas cost: 3
+Gas Remaining: 9223372036854775723
+Depth: 0
+Stack:
+	0 0x0046
+	1 0x0000000000000000000000000000000000000000000000000000000000000000
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPI
+PC: 42
+Gas cost: 10
+Gas Remaining: 9223372036854775720
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 43
+Gas cost: 3
+Gas Remaining: 9223372036854775710
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000060fe47b1
+	1 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH4
+PC: 44
+Gas cost: 3
+Gas Remaining: 9223372036854775707
+Depth: 0
+Stack:
+	0 0x60fe47b1
+	1 0x0000000000000000000000000000000000000000000000000000000060fe47b1
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: EQ
+PC: 49
+Gas cost: 3
+Gas Remaining: 9223372036854775704
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000001
+	1 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH2
+PC: 50
+Gas cost: 3
+Gas Remaining: 9223372036854775701
+Depth: 0
+Stack:
+	0 0x0064
+	1 0x0000000000000000000000000000000000000000000000000000000000000001
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPI
+PC: 100
+Gas cost: 10
+Gas Remaining: 9223372036854775698
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPDEST
+PC: 100
+Gas cost: 1
+Gas Remaining: 9223372036854775688
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH2
+PC: 101
+Gas cost: 3
+Gas Remaining: 9223372036854775687
+Depth: 0
+Stack:
+	0 0x0090
+	1 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 104
+Gas cost: 3
+Gas Remaining: 9223372036854775684
+Depth: 0
+Stack:
+	0 0x04
+	1 0x0090
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 106
+Gas cost: 3
+Gas Remaining: 9223372036854775681
+Depth: 0
+Stack:
+	0 0x04
+	1 0x04
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: CALLDATASIZE
+PC: 107
+Gas cost: 2
+Gas Remaining: 9223372036854775678
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000024
+	1 0x04
+	2 0x04
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SUB
+PC: 108
+Gas cost: 3
+Gas Remaining: 9223372036854775676
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000020
+	1 0x04
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 109
+Gas cost: 3
+Gas Remaining: 9223372036854775673
+Depth: 0
+Stack:
+	0 0x20
+	1 0x0000000000000000000000000000000000000000000000000000000000000020
+	2 0x04
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP2
+PC: 111
+Gas cost: 3
+Gas Remaining: 9223372036854775670
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000020
+	1 0x20
+	2 0x0000000000000000000000000000000000000000000000000000000000000020
+	3 0x04
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: LT
+PC: 112
+Gas cost: 3
+Gas Remaining: 9223372036854775667
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000000
+	1 0x0000000000000000000000000000000000000000000000000000000000000020
+	2 0x04
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: ISZERO
+PC: 113
+Gas cost: 3
+Gas Remaining: 9223372036854775664
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000001
+	1 0x0000000000000000000000000000000000000000000000000000000000000020
+	2 0x04
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH2
+PC: 114
+Gas cost: 3
+Gas Remaining: 9223372036854775661
+Depth: 0
+Stack:
+	0 0x007a
+	1 0x0000000000000000000000000000000000000000000000000000000000000001
+	2 0x0000000000000000000000000000000000000000000000000000000000000020
+	3 0x04
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPI
+PC: 122
+Gas cost: 10
+Gas Remaining: 9223372036854775658
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000020
+	1 0x04
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPDEST
+PC: 122
+Gas cost: 1
+Gas Remaining: 9223372036854775648
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000020
+	1 0x04
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP2
+PC: 123
+Gas cost: 3
+Gas Remaining: 9223372036854775647
+Depth: 0
+Stack:
+	0 0x04
+	1 0x0000000000000000000000000000000000000000000000000000000000000020
+	2 0x04
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: ADD
+PC: 124
+Gas cost: 3
+Gas Remaining: 9223372036854775644
+Depth: 0
+Stack:
+	0 0x24
+	1 0x04
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP1
+PC: 125
+Gas cost: 3
+Gas Remaining: 9223372036854775641
+Depth: 0
+Stack:
+	0 0x04
+	1 0x24
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 126
+Gas cost: 3
+Gas Remaining: 9223372036854775638
+Depth: 0
+Stack:
+	0 0x04
+	1 0x04
+	2 0x24
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 127
+Gas cost: 3
+Gas Remaining: 9223372036854775635
+Depth: 0
+Stack:
+	0 0x04
+	1 0x04
+	2 0x04
+	3 0x24
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: CALLDATALOAD
+PC: 128
+Gas cost: 3
+Gas Remaining: 9223372036854775632
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x04
+	2 0x04
+	3 0x24
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP1
+PC: 129
+Gas cost: 3
+Gas Remaining: 9223372036854775629
+Depth: 0
+Stack:
+	0 0x04
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x04
+	3 0x24
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 130
+Gas cost: 3
+Gas Remaining: 9223372036854775626
+Depth: 0
+Stack:
+	0 0x20
+	1 0x04
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x04
+	4 0x24
+	5 0x0090
+	6 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: ADD
+PC: 132
+Gas cost: 3
+Gas Remaining: 9223372036854775623
+Depth: 0
+Stack:
+	0 0x24
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x04
+	3 0x24
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP1
+PC: 133
+Gas cost: 3
+Gas Remaining: 9223372036854775620
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x24
+	2 0x04
+	3 0x24
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP3
+PC: 134
+Gas cost: 3
+Gas Remaining: 9223372036854775617
+Depth: 0
+Stack:
+	0 0x24
+	1 0x24
+	2 0x04
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP2
+PC: 135
+Gas cost: 3
+Gas Remaining: 9223372036854775614
+Depth: 0
+Stack:
+	0 0x04
+	1 0x24
+	2 0x24
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP1
+PC: 136
+Gas cost: 3
+Gas Remaining: 9223372036854775611
+Depth: 0
+Stack:
+	0 0x24
+	1 0x04
+	2 0x24
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,137","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: POP
+PC: 137
+Gas cost: 2
+Gas Remaining: 9223372036854775608
+Depth: 0
+Stack:
+	0 0x04
+	1 0x24
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: POP
+PC: 138
+Gas cost: 2
+Gas Remaining: 9223372036854775606
+Depth: 0
+Stack:
+	0 0x24
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: POP
+PC: 139
+Gas cost: 2
+Gas Remaining: 9223372036854775604
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x0090
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH2
+PC: 140
+Gas cost: 3
+Gas Remaining: 9223372036854775602
+Depth: 0
+Stack:
+	0 0x00b6
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMP
+PC: 182
+Gas cost: 8
+Gas Remaining: 9223372036854775599
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x0090
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: JUMPDEST
+PC: 182
+Gas cost: 1
+Gas Remaining: 9223372036854775591
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x0090
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH32
+PC: 183
+Gas cost: 3
+Gas Remaining: 9223372036854775590
+Depth: 0
+Stack:
+	0 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: CALLER
+PC: 216
+Gas cost: 2
+Gas Remaining: 9223372036854775587
+Depth: 0
+Stack:
+	0 0x9b790656b9ec0db1936ed84b3bea605873558198
+	1 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP3
+PC: 217
+Gas cost: 3
+Gas Remaining: 9223372036854775585
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x9b790656b9ec0db1936ed84b3bea605873558198
+	2 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 218
+Gas cost: 3
+Gas Remaining: 9223372036854775582
+Depth: 0
+Stack:
+	0 0x40
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x9b790656b9ec0db1936ed84b3bea605873558198
+	3 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x0090
+	6 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: MLOAD
+PC: 220
+Gas cost: 3
+Gas Remaining: 9223372036854775579
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x9b790656b9ec0db1936ed84b3bea605873558198
+	3 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x0090
+	6 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 221
+Gas cost: 3
+Gas Remaining: 9223372036854775576
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x9b790656b9ec0db1936ed84b3bea605873558198
+	4 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	5 0x000000000000000000000000000000000000000000000000000000000000007b
+	6 0x0090
+	7 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP4
+PC: 222
+Gas cost: 3
+Gas Remaining: 9223372036854775573
+Depth: 0
+Stack:
+	0 0x9b790656b9ec0db1936ed84b3bea605873558198
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x9b790656b9ec0db1936ed84b3bea605873558198
+	5 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	6 0x000000000000000000000000000000000000000000000000000000000000007b
+	7 0x0090
+	8 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH20
+PC: 223
+Gas cost: 3
+Gas Remaining: 9223372036854775570
+Depth: 0
+Stack:
+	0 0xffffffffffffffffffffffffffffffffffffffff
+	1 0x9b790656b9ec0db1936ed84b3bea605873558198
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0x0000000000000000000000000000000000000000000000000000000000000080
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x9b790656b9ec0db1936ed84b3bea605873558198
+	6 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	7 0x000000000000000000000000000000000000000000000000000000000000007b
+	8 0x0090
+	9 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: AND
+PC: 244
+Gas cost: 3
+Gas Remaining: 9223372036854775567
+Depth: 0
+Stack:
+	0 0x0000000000000000000000009b790656b9ec0db1936ed84b3bea605873558198
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x9b790656b9ec0db1936ed84b3bea605873558198
+	5 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	6 0x000000000000000000000000000000000000000000000000000000000000007b
+	7 0x0090
+	8 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP2
+PC: 245
+Gas cost: 3
+Gas Remaining: 9223372036854775564
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x0000000000000000000000009b790656b9ec0db1936ed84b3bea605873558198
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0x0000000000000000000000000000000000000000000000000000000000000080
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x9b790656b9ec0db1936ed84b3bea605873558198
+	6 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	7 0x000000000000000000000000000000000000000000000000000000000000007b
+	8 0x0090
+	9 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: MSTORE
+PC: 246
+Gas cost: 9
+Gas Remaining: 9223372036854775561
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x9b790656b9ec0db1936ed84b3bea605873558198
+	4 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	5 0x000000000000000000000000000000000000000000000000000000000000007b
+	6 0x0090
+	7 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 247
+Gas cost: 3
+Gas Remaining: 9223372036854775552
+Depth: 0
+Stack:
+	0 0x20
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x9b790656b9ec0db1936ed84b3bea605873558198
+	5 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	6 0x000000000000000000000000000000000000000000000000000000000000007b
+	7 0x0090
+	8 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: ADD
+PC: 249
+Gas cost: 3
+Gas Remaining: 9223372036854775549
+Depth: 0
+Stack:
+	0 0x00a0
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x9b790656b9ec0db1936ed84b3bea605873558198
+	4 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	5 0x000000000000000000000000000000000000000000000000000000000000007b
+	6 0x0090
+	7 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP3
+PC: 250
+Gas cost: 3
+Gas Remaining: 9223372036854775546
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x00a0
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x9b790656b9ec0db1936ed84b3bea605873558198
+	5 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	6 0x000000000000000000000000000000000000000000000000000000000000007b
+	7 0x0090
+	8 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP2
+PC: 251
+Gas cost: 3
+Gas Remaining: 9223372036854775543
+Depth: 0
+Stack:
+	0 0x00a0
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x00a0
+	3 0x0000000000000000000000000000000000000000000000000000000000000080
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x9b790656b9ec0db1936ed84b3bea605873558198
+	6 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	7 0x000000000000000000000000000000000000000000000000000000000000007b
+	8 0x0090
+	9 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: MSTORE
+PC: 252
+Gas cost: 6
+Gas Remaining: 9223372036854775540
+Depth: 0
+Stack:
+	0 0x00a0
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x9b790656b9ec0db1936ed84b3bea605873558198
+	4 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	5 0x000000000000000000000000000000000000000000000000000000000000007b
+	6 0x0090
+	7 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 253
+Gas cost: 3
+Gas Remaining: 9223372036854775534
+Depth: 0
+Stack:
+	0 0x20
+	1 0x00a0
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x9b790656b9ec0db1936ed84b3bea605873558198
+	5 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	6 0x000000000000000000000000000000000000000000000000000000000000007b
+	7 0x0090
+	8 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: ADD
+PC: 255
+Gas cost: 3
+Gas Remaining: 9223372036854775531
+Depth: 0
+Stack:
+	0 0x00c0
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x9b790656b9ec0db1936ed84b3bea605873558198
+	4 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	5 0x000000000000000000000000000000000000000000000000000000000000007b
+	6 0x0090
+	7 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP3
+PC: 256
+Gas cost: 3
+Gas Remaining: 9223372036854775528
+Depth: 0
+Stack:
+	0 0x9b790656b9ec0db1936ed84b3bea605873558198
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x00c0
+	4 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	5 0x000000000000000000000000000000000000000000000000000000000000007b
+	6 0x0090
+	7 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: POP
+PC: 257
+Gas cost: 2
+Gas Remaining: 9223372036854775525
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x00c0
+	3 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x0090
+	6 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: POP
+PC: 258
+Gas cost: 2
+Gas Remaining: 9223372036854775523
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x00c0
+	2 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: POP
+PC: 259
+Gas cost: 2
+Gas Remaining: 9223372036854775521
+Depth: 0
+Stack:
+	0 0x00c0
+	1 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 260
+Gas cost: 3
+Gas Remaining: 9223372036854775519
+Depth: 0
+Stack:
+	0 0x40
+	1 0x00c0
+	2 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: MLOAD
+PC: 262
+Gas cost: 3
+Gas Remaining: 9223372036854775516
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x00c0
+	2 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 263
+Gas cost: 3
+Gas Remaining: 9223372036854775513
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x00c0
+	3 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x0090
+	6 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP2
+PC: 264
+Gas cost: 3
+Gas Remaining: 9223372036854775510
+Depth: 0
+Stack:
+	0 0x00c0
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0x0000000000000000000000000000000000000000000000000000000000000080
+	3 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	4 0x000000000000000000000000000000000000000000000000000000000000007b
+	5 0x0090
+	6 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SUB
+PC: 265
+Gas cost: 3
+Gas Remaining: 9223372036854775507
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000040
+	1 0x0000000000000000000000000000000000000000000000000000000000000080
+	2 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP1
+PC: 266
+Gas cost: 3
+Gas Remaining: 9223372036854775504
+Depth: 0
+Stack:
+	0 0x0000000000000000000000000000000000000000000000000000000000000080
+	1 0x0000000000000000000000000000000000000000000000000000000000000040
+	2 0xc9db20adedc6cf2b5d25252b101ab03e124902a73fcb12b753f3d1aaa2d8f9f5
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: LOG1
+PC: 267
+Gas cost: 1262
+Gas Remaining: 9223372036854775501
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x0090
+	2 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP1
+PC: 268
+Gas cost: 3
+Gas Remaining: 9223372036854774239
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x0090
+	3 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: PUSH1
+PC: 269
+Gas cost: 3
+Gas Remaining: 9223372036854774236
+Depth: 0
+Stack:
+	0 0x00
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x0090
+	4 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: DUP2
+PC: 271
+Gas cost: 3
+Gas Remaining: 9223372036854774233
+Depth: 0
+Stack:
+	0 0x000000000000000000000000000000000000000000000000000000000000007b
+	1 0x00
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,138","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: SWAP1
+PC: 272
+Gas cost: 3
+Gas Remaining: 9223372036854774230
+Depth: 0
+Stack:
+	0 0x00
+	1 0x000000000000000000000000000000000000000000000000000000000000007b
+	2 0x000000000000000000000000000000000000000000000000000000000000007b
+	3 0x000000000000000000000000000000000000000000000000000000000000007b
+	4 0x0090
+	5 0x0000000000000000000000000000000000000000000000000000000060fe47b1","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,140","container":"4748ada8fcaf","level":"ERROR","thread":"EthScheduler-Workers-0","class":"PrivacyPrecompiledContract","message":"Failed to process private transaction 0x20854c109f089887bc8976690b63819ece6ca3691cc9cddbda24301aad316c49: PRIVATE_TRANSACTION_FAILED","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,141","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"MessageCallProcessor","message":"Precompiled contract Privacy CODE_EXECUTING (gasComsumed: 0)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,141","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"EVM","message":"Depth: 0
+Operation: STOP
+PC: 0
+Gas cost: 0
+Gas Remaining: 238968
+Depth: 0
+Stack:","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,141","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"MessageCallProcessor","message":"Successful message call of 0xa51081dae459ee9ed6e9395857165437e304ff42 to 0x000000000000000000000000000000000000007e (Gas remaining: 238968)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,141","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"MainnetTransactionProcessor","message":"Gas used by transaction: 23176, by message call/contract creation: 0","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,208","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Checking enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303 -> enode://ad2c79c6561bc8212c2e8382611c62e406e767d1f3106c68ca206900f575cb8ba9a8be111c645cd9803701d684454c782c40d2361b000a32ed03d26228b30ec1@172.16.239.17:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Permitted enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303 -> enode://ad2c79c6561bc8212c2e8382611c62e406e767d1f3106c68ca206900f575cb8ba9a8be111c645cd9803701d684454c782c40d2361b000a32ed03d26228b30ec1@172.16.239.17:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Checking enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303 -> enode://af19c92deb635bd7720634de9b2e7908208530d6f5e96eee003a8f1799e5be4037957d7e2fdbe3605e3a38dab05c961679c02133a0e624e23a72f7961e8af6ac@172.16.239.18:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Permitted enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303 -> enode://af19c92deb635bd7720634de9b2e7908208530d6f5e96eee003a8f1799e5be4037957d7e2fdbe3605e3a38dab05c961679c02133a0e624e23a72f7961e8af6ac@172.16.239.18:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Checking enode://86fcc16f4730fbfd238dc17ea552854c0943923bb1d5e886e5601b8d884fb0519060e0023f495dd24ffe60a65660fb7fdcdebfceedd2b3673dfa63658825924b@172.16.239.15:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Permitted enode://86fcc16f4730fbfd238dc17ea552854c0943923bb1d5e886e5601b8d884fb0519060e0023f495dd24ffe60a65660fb7fdcdebfceedd2b3673dfa63658825924b@172.16.239.15:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Checking enode://b9050e002aa42464e6b07c811a1f9dfec01249af03f67b753e8415420649b184447bb2a784863ccbf327ad9e31aaba803464979dfe6a7facc669151a5fa6ad1b@172.16.239.12:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Permitted enode://b9050e002aa42464e6b07c811a1f9dfec01249af03f67b753e8415420649b184447bb2a784863ccbf327ad9e31aaba803464979dfe6a7facc669151a5fa6ad1b@172.16.239.12:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Checking enode://59cf0c623c582fa9b19bdf70fb6bade07f4ae32218dd4d1c7e2c7e65acf87da45cf2ab55d16d27360aafef17622c37c09db60d7680ebcc17b78867f4c05bcaa4@172.16.239.13:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Permitted enode://59cf0c623c582fa9b19bdf70fb6bade07f4ae32218dd4d1c7e2c7e65acf87da45cf2ab55d16d27360aafef17622c37c09db60d7680ebcc17b78867f4c05bcaa4@172.16.239.13:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Checking enode://2fd5b5b6ad529f55b71602026d1849d0036f06482368b5812fa793014195d3571b0840dbc4175617de2a12db8f1222c012420d471ae5c0d982118625cae58868@172.16.239.14:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Permitted enode://2fd5b5b6ad529f55b71602026d1849d0036f06482368b5812fa793014195d3571b0840dbc4175617de2a12db8f1222c012420d471ae5c0d982118625cae58868@172.16.239.14:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Checking enode://8208a3f344695d44e9cf2c023683cbea7b9343e2f70a5e804bd2c93858e945f8f91439eef96a4ab6c47ff06637d6fbe6472f96de1655a1bee57ea896654f3a22@172.16.239.11:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,209","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"NodePermissioningController","message":"Node permissioning: Permitted enode://8208a3f344695d44e9cf2c023683cbea7b9343e2f70a5e804bd2c93858e945f8f91439eef96a4ab6c47ff06637d6fbe6472f96de1655a1bee57ea896654f3a22@172.16.239.11:30303?discport=0 -> enode://98496800174b3c73ae33cba59f8f5e686cd488f7897c2edb52e2cf46383d75cd03dbb58dde07185bc0953f98800ca9a89f4b5ef450c5e51292ea08ec6130ee0c@172.16.239.16:30303","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,210","container":"4748ada8fcaf","level":"DEBUG","thread":"EthScheduler-Workers-0","class":"TransactionLogBloomCacher","message":"Caching logs bloom for block 0x5e.","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,210","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"BlockPropagationManager","message":"Block added event type HEAD_ADVANCED for block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8). Current status BlockPropagationManager{requestedBlocks=[], requestedNonAnnounceBlocks=[], importingBlocks=[0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8], pendingBlocksManager=PendingBlocksManager{pendingBlocks [], pendingBlocksByParentHash={}}}","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,211","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"BlockPropagationManager","message":"There are no pending blocks ready to import for block 94 (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8)","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,211","container":"4748ada8fcaf","level":"TRACE","thread":"EthScheduler-Workers-0","class":"BftMiningCoordinator","message":"New canonical head detected","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,211","container":"4748ada8fcaf","level":"DEBUG","thread":"BftProcessorExecutor-QBFT-0","class":"BaseBftController","message":"New chain head detected (block number=94), currently mining on top of 93.","throwable":""}
+{"timestamp":"2022-06-07T15:00:29,211","container":"4748ada8fcaf","level":"INFO","thread":"EthScheduler-Workers-0","class":"PersistBlockTask","message":"Imported #94 / 1 tx / 0 om / 23,176 (0.1%) gas / (0xf4f5d2659b612675ee332f11d8c47204f09df75ae2d80a79a9c1ec753bd659f8) in 0.182s. Peers: 8","throwable":""}
