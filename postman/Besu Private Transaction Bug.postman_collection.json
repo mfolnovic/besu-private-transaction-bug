@@ -165,6 +165,85 @@
 			]
 		},
 		{
+			"name": "set",
+			"item": [
+				{
+					"name": "Create Public Transaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json();",
+									"pm.environment.set(\"transaction_hash\", responseData.result);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"eth_sendTransaction\",\n    \"params\": [\n        {\n            \"data\": \"0x60fe47b1000000000000000000000000000000000000000000000000000000000000007b\",\n            \"from\": \"{{from_addr}}\",\n            \"gas\": \"0x40000\",\n            \"gasPrice\": \"0x0\",\n            \"to\": \"{{storage_addr}}\",\n            \"value\": \"0x0\"\n        }\n    ],\n    \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:18545",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "18545"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Private Transaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json();",
+									"pm.environment.set(\"transaction_hash\", responseData.result);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"eea_sendTransaction\",\n    \"params\": [\n        {\n            \"data\": \"0x60fe47b1000000000000000000000000000000000000000000000000000000000000007b\",\n            \"from\": \"{{from_addr}}\",\n            \"gas\": \"0x40000\",\n            \"gasPrice\": \"0x0\",\n            \"to\": \"{{storage_addr}}\",\n            \"value\": \"0x0\",\n            \"privateFrom\": \"{{member1_public_key}}\",\n            \"privacyGroupId\": \"{{privacy_group}}\",\n            \"restriction\": \"restricted\"\n        }\n    ],\n    \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:18545",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "18545"
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Get Public Transaction Receipt",
 			"request": {
 				"method": "POST",
@@ -291,6 +370,11 @@
 		{
 			"key": "member2_public_key",
 			"value": "QfeDAys9MPDs2XHExtc84jKGHxZg/aj52DTh0vtA3Xc=",
+			"type": "string"
+		},
+		{
+			"key": "storage_addr",
+			"value": "0xef7A902B01CaF3FAC7b51322169B85e591fD7E89",
 			"type": "string"
 		}
 	]

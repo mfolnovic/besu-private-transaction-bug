@@ -1,9 +1,10 @@
 # Besu Private Transaction Bug
 
-I've created a simple contract https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/contracts/SimpleStorageFactory.sol that has two methods:
+I've created a simple contract [SimpleStorageFactory](https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/contracts/SimpleStorageFactory.sol) that has two methods:
 
-1. `create` - creates an instance of https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/contracts/SimpleStorage.sol
+1. `create` - creates an instance of [SimpleStorage](https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/contracts/SimpleStorage.sol)
 2. `count` - just emits event with constant 123 (to check that private transactions works)
+3. `set` - calls `set` method of creates an instance of [SimpleStorage](https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/contracts/SimpleStorage.sol)
 
 ## Prerequisites
 - truffle
@@ -20,7 +21,7 @@ There's a small patch that makes ethsigner use member1besu instead of rpcnode, s
 
 ## Setup postman
 
-- import [collection](https://github.com/mfolnovic/besu-private-transaction-bug/blob/dc034464da4da072239ba27a8c7e907a5d390ddb/postman/Besu%20Private%20Transaction%20Bug.postman_collection.json) to Postman
+- import [collection](https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/postman/Besu%20Private%20Transaction%20Bug.postman_collection.json) to Postman
 
 ## Deploy contract
 
@@ -57,7 +58,22 @@ There's a small patch that makes ethsigner use member1besu instead of rpcnode, s
   - request: Get Private Transaction Receipt
     - expect to see 2 logs (one is from SimpleStorageFactory, another from SimpleStorage)
     - but got: "status": "0x0", and error in log: Failed to process private transaction 0xe379a9658662d1fc0e8837f57b3ded8b0151d10d1d07512ac1d9385935173d8a: PRIVATE_TRANSACTION_FAILED
+    - - logs [here](https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/logs/create.log)
 
+### Set (public works, private doesn't)
+5. public:
+- request: create/Create Public Transaction
+- request: set/Create Public Transaction
+- request: Get Public Transaction Receipt
+    - expect to see 1 log
+
+6. private:
+- request: create/Create Public Transaction
+- request: set/Create Private Transaction
+- request: Get Private Transaction Receipt
+    - expect to see 1 log
+    - but got: "status": "0x0", and error in log: Failed to process private transaction 0x20854c109f089887bc8976690b63819ece6ca3691cc9cddbda24301aad316c49: PRIVATE_TRANSACTION_FAILED
+    - logs [here](https://github.com/mfolnovic/besu-private-transaction-bug/blob/main/logs/set.log)
 
 ## Notes
 
